@@ -1,0 +1,156 @@
+
+
+body{
+
+
+}
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    border: solid black 1px;
+    height: 97vh;
+    position: relative;
+
+
+}
+
+.west{
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    width: 50%;
+    position: relative;
+}
+
+.east{
+    border: solid black 1px;
+    display: flex;
+    width: 50%;
+
+}
+
+#curve{
+
+    margin-bottom: 0px;
+    border: solid black 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+
+}
+
+#quotes{
+    position: absolute;
+    left: 250px;
+    top: 170px;
+}
+
+.east img{
+    height: 95% ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img .pattern{
+    position: relative;
+}
+
+
+.double{
+    border: 1px solid red;
+    width: 1000px;
+    height: 450px;
+    position: absolute;
+    background-color:transparent;
+    right: 200px;
+    top: 100px;
+    
+    
+}
+
+.carousel{
+    width: 200%;
+    height: 100%;
+    border: 1px solid black;
+    /* transform: translate(-50%); */
+    overflow: hidden;
+    display: flex;
+
+}
+
+.slider{
+    height: 100%;
+    display: flex;
+    width: 200%;
+}
+
+
+
+img .tanya{
+
+    margin-right: 0px;
+}
+
+.slider section{
+    flex-basis: 100%;
+    justify-content: center;
+   
+    display: flex;
+    
+
+
+}
+
+#john{
+    margin-right: 0.5%;
+    border-radius: 13px;
+    height: 440px;
+    margin-top: 5px;
+}
+
+#tanya{
+    margin-right: 0.5%;
+    border-radius: 13px;
+    height: 440px;
+    margin-top: 5px;
+}
+
+p{
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: hsl(240, 38%, 20%);
+    margin-top: 6.5rem;
+}
+
+.credentials{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+    border: 1px solid red;
+
+}
+
+.name{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 2rem;
+    border: 1px solid red;
+}
+
+.developer{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: hsl(240, 18%, 77%);
+    padding-bottom: 0rem;
+    border: 1px solid red;
+    display: flex;
+    padding-top: 2.6px;
+
+}
