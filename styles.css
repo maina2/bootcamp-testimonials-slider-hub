@@ -9,7 +9,6 @@ body{
 
     display: flex;
     flex-direction: row;
-    border: solid black 1px;
     height: 97vh;
     position: relative;
 
@@ -19,13 +18,12 @@ body{
 .west{
     display: flex;
     flex-direction: column;
-    border: solid black 1px;
     width: 50%;
     position: relative;
 }
 
 .east{
-    border: solid black 1px;
+
     display: flex;
     width: 50%;
 
@@ -34,7 +32,6 @@ body{
 #curve{
 
     margin-bottom: 0px;
-    border: solid black 1px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -61,13 +58,14 @@ img .pattern{
 
 
 .double{
-    border: 1px solid red;
+
     width: 1000px;
     height: 450px;
     position: absolute;
     background-color:transparent;
     right: 200px;
     top: 100px;
+    overflow: hidden;
     
     
 }
@@ -75,10 +73,10 @@ img .pattern{
 .carousel{
     width: 200%;
     height: 100%;
-    border: 1px solid black;
-    /* transform: translate(-50%); */
-    overflow: hidden;
+    transform: translate(-50%);
+   
     display: flex;
+    position: relative;
 
 }
 
@@ -86,6 +84,7 @@ img .pattern{
     height: 100%;
     display: flex;
     width: 200%;
+    
 }
 
 
@@ -131,7 +130,7 @@ p{
     display: flex;
     flex-direction: row;
     padding-bottom: 1rem;
-    border: 1px solid red;
+    
 
 }
 
@@ -140,7 +139,7 @@ p{
     font-weight: 700;
     font-size: 20px;
     margin-right: 2rem;
-    border: 1px solid red;
+    
 }
 
 .developer{
@@ -149,8 +148,31 @@ p{
     font-size: 16px;
     color: hsl(240, 18%, 77%);
     padding-bottom: 0rem;
-    border: 1px solid red;
     display: flex;
     padding-top: 2.6px;
+
+}
+
+.controls{
+    position: absolute;
+    width: 69px;
+    height: 30px;
+    right: 300px;
+    bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    gap: 1rem;
+    background-color: whitesmoke;
+    
+  
+}
+
+.arrow{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin: 4px;
+    cursor: pointer;
 
 }
