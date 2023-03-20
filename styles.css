@@ -1,10 +1,5 @@
 
 
-body{
-
-
-}
-
 .container{
 
     display: flex;
@@ -155,16 +150,16 @@ p{
 
 .controls{
     position: absolute;
-    width: 69px;
-    height: 30px;
+    width: 79px;
+    height: 39px;
     right: 300px;
-    bottom: 5px;
+    bottom: -5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
     gap: 1rem;
-    background-color: whitesmoke;
+    background-color: white;
     
   
 }
@@ -175,4 +170,11 @@ p{
     margin: 4px;
     cursor: pointer;
 
+}
+.arrow .left{
+    margin-right: 4px;
+
+}
+.arrow .right{
+    margin-right: 4px;
 }
